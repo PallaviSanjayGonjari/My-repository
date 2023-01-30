@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="neoStoxTestClasses.ValidateUserNeoStoxNameUsingUsingValueDrivenFrmwrk">
+        <methods>
+          <include name="logOutFromNeoStox"/>
+          <include name="launchNeoStoxApp"/>
+          <include name="closeBrowser"/>
+          <include name="loginToNeoStoxApp"/>
+          <include name="validateACBalance"/>
+          <include name="ValidateUserName"/>
+        </methods>
+      </class> <!-- neoStoxTestClasses.ValidateUserNeoStoxNameUsingUsingValueDrivenFrmwrk -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

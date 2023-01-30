@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Testng1(failed)">
+    <classes>
+      <class name="testNG.NewTest_Case01">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="TC2"/>
+          <include name="afterMethod"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- testNG.NewTest_Case01 -->
+      <class name="testNG.NeoStoxUserIDValidation">
+        <methods>
+          <include name="CloseBrowser"/>
+          <include name="ValidatePassword"/>
+          <include name="LoginToNeoStox"/>
+          <include name="LaunchApplication"/>
+          <include name="LogOutFromNeoStox"/>
+        </methods>
+      </class> <!-- testNG.NeoStoxUserIDValidation -->
+    </classes>
+  </test> <!-- Testng1(failed) -->
+</suite> <!-- Failed suite [Suite] -->

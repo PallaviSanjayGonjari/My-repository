@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Waiting for1000ms]]>
+    </line>
+    <line>
+      <![CDATA[launching browser]]>
+    </line>
+    <line>
+      <![CDATA[clicking on signin button]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for1000ms]]>
+    </line>
+    <line>
+      <![CDATA[Entering mobile number]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on sign in button]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for1000ms]]>
+    </line>
+    <line>
+      <![CDATA[entering password]]>
+    </line>
+    <line>
+      <![CDATA[clicking on submit button]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for1000ms]]>
+    </line>
+    <line>
+      <![CDATA[scrolling into view toOK]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on PopUp OK button]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on PopUp Close button]]>
+    </line>
+    <line>
+      <![CDATA[Drawing border to UserName]]>
+    </line>
+    <line>
+      <![CDATA[Taking screenshot]]>
+    </line>
+    <line>
+      <![CDATA[Screenshot taken saved at G:\velocity\SeleniumSCREENSHOTS\testimgTCID123.png]]>
+    </line>
+    <line>
+      <![CDATA[Loging Out From NeoStox]]>
+    </line>
+    <line>
+      <![CDATA[clicking on signin button]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for1000ms]]>
+    </line>
+    <line>
+      <![CDATA[Entering mobile number]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on sign in button]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for1000ms]]>
+    </line>
+    <line>
+      <![CDATA[entering password]]>
+    </line>
+    <line>
+      <![CDATA[clicking on submit button]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for1000ms]]>
+    </line>
+    <line>
+      <![CDATA[There is no PopUp ]]>
+    </line>
+    <line>
+      <![CDATA[Get Account Balance]]>
+    </line>
+    <line>
+      <![CDATA[Account Balance is Rs.5,00,601.17]]>
+    </line>
+    <line>
+      <![CDATA[Taking screenshot]]>
+    </line>
+    <line>
+      <![CDATA[Screenshot taken saved at G:\velocity\SeleniumSCREENSHOTS\testimgnull.png]]>
+    </line>
+    <line>
+      <![CDATA[Loging Out From NeoStox]]>
+    </line>
+    <line>
+      <![CDATA[Closing Browser]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-01-07T20:05:11 IST" name="Default suite" finished-at="2023-01-07T20:05:53 IST" duration-ms="42880">
+    <groups>
+    </groups>
+    <test started-at="2023-01-07T20:05:11 IST" name="Default test" finished-at="2023-01-07T20:05:53 IST" duration-ms="42880">
+      <class name="neoStoxTestClasses.ValidateUserNeoStoxNameUsingUsingValueDrivenFrmwrk">
+        <test-method is-config="true" signature="launchNeoStoxApp()[pri:0, instance:neoStoxTestClasses.ValidateUserNeoStoxNameUsingUsingValueDrivenFrmwrk@18df8434]" started-at="2023-01-07T20:05:11 IST" name="launchNeoStoxApp" finished-at="2023-01-07T20:05:16 IST" duration-ms="5367" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Waiting for1000ms]]>
+            </line>
+            <line>
+              <![CDATA[launching browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchNeoStoxApp -->
+        <test-method is-config="true" signature="loginToNeoStoxApp()[pri:0, instance:neoStoxTestClasses.ValidateUserNeoStoxNameUsingUsingValueDrivenFrmwrk@18df8434]" started-at="2023-01-07T20:05:16 IST" name="loginToNeoStoxApp" finished-at="2023-01-07T20:05:27 IST" duration-ms="11162" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[clicking on signin button]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for1000ms]]>
+            </line>
+            <line>
+              <![CDATA[Entering mobile number]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on sign in button]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for1000ms]]>
+            </line>
+            <line>
+              <![CDATA[entering password]]>
+            </line>
+            <line>
+              <![CDATA[clicking on submit button]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for1000ms]]>
+            </line>
+            <line>
+              <![CDATA[scrolling into view toOK]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on PopUp OK button]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on PopUp Close button]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginToNeoStoxApp -->
+        <test-method signature="ValidateUserName()[pri:0, instance:neoStoxTestClasses.ValidateUserNeoStoxNameUsingUsingValueDrivenFrmwrk@18df8434]" started-at="2023-01-07T20:05:27 IST" name="ValidateUserName" finished-at="2023-01-07T20:05:27 IST" duration-ms="187" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Drawing border to UserName]]>
+            </line>
+            <line>
+              <![CDATA[Taking screenshot]]>
+            </line>
+            <line>
+              <![CDATA[Screenshot taken saved at G:\velocity\SeleniumSCREENSHOTS\testimgTCID123.png]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ValidateUserName -->
+        <test-method is-config="true" signature="logOutFromNeoStox()[pri:0, instance:neoStoxTestClasses.ValidateUserNeoStoxNameUsingUsingValueDrivenFrmwrk@18df8434]" started-at="2023-01-07T20:05:27 IST" name="logOutFromNeoStox" finished-at="2023-01-07T20:05:29 IST" duration-ms="1159" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Loging Out From NeoStox]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logOutFromNeoStox -->
+        <test-method is-config="true" signature="loginToNeoStoxApp()[pri:0, instance:neoStoxTestClasses.ValidateUserNeoStoxNameUsingUsingValueDrivenFrmwrk@18df8434]" started-at="2023-01-07T20:05:29 IST" name="loginToNeoStoxApp" finished-at="2023-01-07T20:05:35 IST" duration-ms="6418" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[clicking on signin button]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for1000ms]]>
+            </line>
+            <line>
+              <![CDATA[Entering mobile number]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on sign in button]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for1000ms]]>
+            </line>
+            <line>
+              <![CDATA[entering password]]>
+            </line>
+            <line>
+              <![CDATA[clicking on submit button]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for1000ms]]>
+            </line>
+            <line>
+              <![CDATA[There is no PopUp ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginToNeoStoxApp -->
+        <test-method signature="validateACBalance()[pri:0, instance:neoStoxTestClasses.ValidateUserNeoStoxNameUsingUsingValueDrivenFrmwrk@18df8434]" started-at="2023-01-07T20:05:35 IST" name="validateACBalance" finished-at="2023-01-07T20:05:35 IST" duration-ms="229" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Get Account Balance]]>
+            </line>
+            <line>
+              <![CDATA[Account Balance is Rs.5,00,601.17]]>
+            </line>
+            <line>
+              <![CDATA[Taking screenshot]]>
+            </line>
+            <line>
+              <![CDATA[Screenshot taken saved at G:\velocity\SeleniumSCREENSHOTS\testimgnull.png]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateACBalance -->
+        <test-method is-config="true" signature="logOutFromNeoStox()[pri:0, instance:neoStoxTestClasses.ValidateUserNeoStoxNameUsingUsingValueDrivenFrmwrk@18df8434]" started-at="2023-01-07T20:05:35 IST" name="logOutFromNeoStox" finished-at="2023-01-07T20:05:36 IST" duration-ms="1135" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Loging Out From NeoStox]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logOutFromNeoStox -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:neoStoxTestClasses.ValidateUserNeoStoxNameUsingUsingValueDrivenFrmwrk@18df8434]" started-at="2023-01-07T20:05:36 IST" name="closeBrowser" finished-at="2023-01-07T20:05:53 IST" duration-ms="17191" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Closing Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- neoStoxTestClasses.ValidateUserNeoStoxNameUsingUsingValueDrivenFrmwrk -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
