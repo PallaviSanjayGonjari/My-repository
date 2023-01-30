@@ -43,17 +43,25 @@ public class UnorderdList {
 				break;
 				
 			}
-		}System.out.println("*************************************************************");
+			
+		}
+		System.out.println("*************************************************************");
+		
 		Thread.sleep(1000);
+		
 		driver.findElement(By.linkText("Images")).click();
+		
 		Thread.sleep(1000);
+		
 		List<WebElement> allLinks = driver.findElements(By.tagName("a"));
 		System.out.println("Total Links on this page are "+allLinks.size());
 		System.out.println("*************************************************************");
 		Thread.sleep(500);
 		
 		List<WebElement> allImg = driver.findElements(By.tagName("img"));
+		
 		Thread.sleep(500);
+		
 		System.out.println("Total Images on page are "+allImg.size());
 		System.out.println("*************************************************************");
 		
