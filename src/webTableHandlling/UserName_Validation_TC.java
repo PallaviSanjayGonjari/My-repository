@@ -12,6 +12,7 @@ public class UserName_Validation_TC {
 	{
 		System.setProperty("webdriver.chrome.driver","G:\\velocity\\selenium\\chromedriver.exe");
 		//created object of chromeDriver
+		//created object of chromeDriver
 		WebDriver driver= new ChromeDriver();
 		driver.get("https://neostox.com/");
 		driver.manage().window().maximize();
