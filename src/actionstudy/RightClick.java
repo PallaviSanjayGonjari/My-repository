@@ -34,7 +34,32 @@ public class RightClick {
 		driver.close();
 		
 		
-
+		 // star-->5 (++),
+ 		int star=1;
+		for(int row=1;row<=5;row++)
+		{
+			for(int col=1;col<=star;col++)
+			{
+				System.out.print("*");
+				
+			}
+			System.out.println();
+			star++;
+		}
+		
+	
+//===============================================
+		int stars=5;
+		for(int row=1;row<=5;row++)
+		{
+			for(int col=1;col<=stars;col++)
+			{
+				System.out.print("*");
+				
+			}
+			System.out.println();
+			stars--;
+		}
 	}
 
 }

@@ -24,7 +24,8 @@ public class Drag_Drop {
 		//act.dragAndDrop(source, target).perform();
 		act.clickAndHold(source).moveToElement(target).build().perform();
 		
-
+//+++++++++++++++++++++++++++++++++
+		//***************************
 	}
 
 }
