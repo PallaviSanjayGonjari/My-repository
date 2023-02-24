@@ -40,6 +40,8 @@ public class Ex01 {
 				//using object call method executeScript
 				Thread.sleep(1000);
 				js.executeScript("window.scrollBy(0,1000)");
-	}
+	
+	//++++++++++++++++++++++++++
+				}
 
 }
